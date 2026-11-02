@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# Inputs and reference results derived from coursework stay local (see data/README.md)
+data/private/
