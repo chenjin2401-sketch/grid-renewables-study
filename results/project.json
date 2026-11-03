@@ -1,0 +1,21 @@
+{
+  "bus": 320,
+  "area": 3,
+  "area_pv_capacity_factor": 0.2798,
+  "firm_mw": 436.2,
+  "dc_firm_mw": 1105.6,
+  "mw": 870.0,
+  "limit": "thermal C28",
+  "candidates": [
+    {
+      "bus": 319,
+      "ac_firm_mw": 339.3,
+      "ac_limit": "thermal C28"
+    },
+    {
+      "bus": 320,
+      "ac_firm_mw": 436.2,
+      "ac_limit": "thermal C28"
+    }
+  ]
+}

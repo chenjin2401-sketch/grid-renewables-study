@@ -1,0 +1,34 @@
+{
+  "hours": 8784,
+  "ac_converged_hours": 8780,
+  "runtime_s_total": 988.3,
+  "annual_load_twh": 37.656,
+  "peak_load_mw": 8191.8,
+  "annual_cost_musd": 444.64,
+  "avg_lmp_usd_mwh": 23.64,
+  "lmp_p95_usd_mwh": 28.51,
+  "hours_with_congestion_dc": 3523,
+  "hours_with_lmp_spread_gt_1usd": 2991,
+  "renewable_curtailment_pct": 4.56,
+  "renewable_share_of_load_pct": 43.7,
+  "unserved_energy_mwh": 0.0,
+  "ac_loss_pct_of_load": 2.7,
+  "ac_hours_any_branch_over_100pct": 1913,
+  "ac_branches_ever_over_100pct": 8,
+  "ac_max_branch_loading_pct": 119.9,
+  "ac_hours_any_v_above_1p05": 8780,
+  "ac_hours_any_v_below_0p95": 555,
+  "ac_v_range_pu": [
+    0.775,
+    1.1135
+  ],
+  "max_dc_vs_ac_branch_mw": 54.9,
+  "mva_calibration": {
+    "stressed_hours": 600,
+    "runtime_s": 234.1,
+    "branches_derated": 15,
+    "max_factor": 1.098,
+    "ac_overload_hours_before": 558,
+    "ac_overload_hours_after": 47
+  }
+}

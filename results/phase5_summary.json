@@ -1,0 +1,184 @@
+{
+  "scenarios": [
+    {
+      "scenario": "load +0%",
+      "load_scale": 1.0,
+      "pv_scale": 1.0,
+      "annual_cost_musd": 444.64,
+      "avg_lmp": 23.642,
+      "lmp_spread_hours": 2991,
+      "congested_hours": 3523,
+      "renewable_curtailment_pct": 4.556,
+      "unserved_mwh": 0.0,
+      "project_firm_mw_dc_network": 1105.567,
+      "project_size_at_3pct_mw": 1778.32,
+      "project_curtailment_pct": 0.0,
+      "n1_dc_overloads_baseline": 289,
+      "n1_dc_overloads_with_project": 382
+    },
+    {
+      "scenario": "load +5%",
+      "load_scale": 1.05,
+      "pv_scale": 1.0,
+      "annual_cost_musd": 490.744,
+      "avg_lmp": 24.27,
+      "lmp_spread_hours": 3077,
+      "congested_hours": 3569,
+      "renewable_curtailment_pct": 4.157,
+      "unserved_mwh": 0.0,
+      "project_firm_mw_dc_network": 1134.74,
+      "project_size_at_3pct_mw": 1825.928,
+      "project_curtailment_pct": 0.0,
+      "n1_dc_overloads_baseline": 372,
+      "n1_dc_overloads_with_project": 478
+    },
+    {
+      "scenario": "load +10%",
+      "load_scale": 1.1,
+      "pv_scale": 1.0,
+      "annual_cost_musd": 538.042,
+      "avg_lmp": 24.84,
+      "lmp_spread_hours": 3122,
+      "congested_hours": 3681,
+      "renewable_curtailment_pct": 3.816,
+      "unserved_mwh": 0.0,
+      "project_firm_mw_dc_network": 1163.914,
+      "project_size_at_3pct_mw": 1872.803,
+      "project_curtailment_pct": 0.0,
+      "n1_dc_overloads_baseline": 491,
+      "n1_dc_overloads_with_project": 616
+    },
+    {
+      "scenario": "load +15%",
+      "load_scale": 1.15,
+      "pv_scale": 1.0,
+      "annual_cost_musd": 586.508,
+      "avg_lmp": 25.402,
+      "lmp_spread_hours": 3144,
+      "congested_hours": 3728,
+      "renewable_curtailment_pct": 3.531,
+      "unserved_mwh": 0.0,
+      "project_firm_mw_dc_network": 1193.044,
+      "project_size_at_3pct_mw": 1919.678,
+      "project_curtailment_pct": 0.0,
+      "n1_dc_overloads_baseline": 555,
+      "n1_dc_overloads_with_project": 690
+    },
+    {
+      "scenario": "load +20%",
+      "load_scale": 1.2,
+      "pv_scale": 1.0,
+      "annual_cost_musd": 636.154,
+      "avg_lmp": 25.969,
+      "lmp_spread_hours": 3192,
+      "congested_hours": 3845,
+      "renewable_curtailment_pct": 3.301,
+      "unserved_mwh": 0.0,
+      "project_firm_mw_dc_network": 1222.016,
+      "project_size_at_3pct_mw": 1966.553,
+      "project_curtailment_pct": 0.0,
+      "n1_dc_overloads_baseline": 562,
+      "n1_dc_overloads_with_project": 702
+    },
+    {
+      "scenario": "PV x1.5",
+      "load_scale": 1.0,
+      "pv_scale": 1.5,
+      "annual_cost_musd": 414.528,
+      "avg_lmp": 22.88,
+      "lmp_spread_hours": 3063,
+      "congested_hours": 3668,
+      "renewable_curtailment_pct": 7.541,
+      "unserved_mwh": 0.0,
+      "project_firm_mw_dc_network": 1105.567,
+      "project_size_at_3pct_mw": 1778.32,
+      "project_curtailment_pct": 0.0,
+      "n1_dc_overloads_baseline": 192,
+      "n1_dc_overloads_with_project": 280
+    },
+    {
+      "scenario": "PV x2",
+      "load_scale": 1.0,
+      "pv_scale": 2.0,
+      "annual_cost_musd": 405.984,
+      "avg_lmp": 22.685,
+      "lmp_spread_hours": 3081,
+      "congested_hours": 3699,
+      "renewable_curtailment_pct": 14.864,
+      "unserved_mwh": 0.0,
+      "project_firm_mw_dc_network": 1105.567,
+      "project_size_at_3pct_mw": 1778.32,
+      "project_curtailment_pct": 0.0,
+      "n1_dc_overloads_baseline": 204,
+      "n1_dc_overloads_with_project": 315
+    },
+    {
+      "scenario": "PV x2.5",
+      "load_scale": 1.0,
+      "pv_scale": 2.5,
+      "annual_cost_musd": 401.872,
+      "avg_lmp": 22.594,
+      "lmp_spread_hours": 3083,
+      "congested_hours": 3697,
+      "renewable_curtailment_pct": 21.77,
+      "unserved_mwh": 0.0,
+      "project_firm_mw_dc_network": 1105.567,
+      "project_size_at_3pct_mw": 1778.32,
+      "project_curtailment_pct": 0.0,
+      "n1_dc_overloads_baseline": 205,
+      "n1_dc_overloads_with_project": 317
+    }
+  ],
+  "breakeven_vs": {
+    "branch": "C28",
+    "from": 316,
+    "to": 319,
+    "kv": 230,
+    "miles": 16.0,
+    "upgrade": "reconductor",
+    "new_rating_mva": 675,
+    "capex_musd": 7.2,
+    "curtailment_pct": 0.94,
+    "avoided_mwh": 5024,
+    "usd_per_avoided_mwh": 135.28,
+    "new_firm_mw": 244.7
+  },
+  "battery_breakeven": [
+    {
+      "battery_mw": 25,
+      "battery_mwh": 100,
+      "avoided_mwh": 4823,
+      "breakeven_usd_per_kwh": 48.6
+    },
+    {
+      "battery_mw": 50,
+      "battery_mwh": 200,
+      "avoided_mwh": 8695,
+      "breakeven_usd_per_kwh": 43.8
+    },
+    {
+      "battery_mw": 100,
+      "battery_mwh": 400,
+      "avoided_mwh": 13979,
+      "breakeven_usd_per_kwh": 35.2
+    },
+    {
+      "battery_mw": 150,
+      "battery_mwh": 600,
+      "avoided_mwh": 17643,
+      "breakeven_usd_per_kwh": 29.6
+    },
+    {
+      "battery_mw": 200,
+      "battery_mwh": 800,
+      "avoided_mwh": 19661,
+      "breakeven_usd_per_kwh": 24.7
+    },
+    {
+      "battery_mw": 300,
+      "battery_mwh": 1200,
+      "avoided_mwh": 21121,
+      "breakeven_usd_per_kwh": 17.7
+    }
+  ]
+}

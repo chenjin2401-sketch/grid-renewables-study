@@ -1,0 +1,5 @@
+branch,from,to,kv,miles,upgrade,new_rating_mva,capex_musd,curtailment_pct,avoided_mwh,usd_per_avoided_mwh,new_firm_mw
+C28,316,319,230,16.0,reconductor,675,7.2,0.94,5024,135.28,244.7
+C28,316,319,230,16.0,rebuild,1000,35.2,0.89,6154,539.96,244.7
+CA-1,325,121,230,67.0,reconductor,675,30.15,1.02,3389,839.86,244.7
+CA-1,325,121,230,67.0,rebuild,1000,147.4,1.02,3389,4105.99,244.7

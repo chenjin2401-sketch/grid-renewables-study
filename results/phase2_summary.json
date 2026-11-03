@@ -1,0 +1,34 @@
+{
+  "buses_studied": 73,
+  "hours_screened_per_bus": 891,
+  "runtime_s": 1006.6,
+  "ac_firm_hc_mw": {
+    "min": 17.1,
+    "p25": 49.0,
+    "median": 275.8,
+    "p75": 725.8,
+    "max": 1966.1
+  },
+  "total_firm_hc_gw_if_each_bus_alone": 34.38,
+  "best_bus": 121,
+  "best_bus_hc_mw": 1966.1,
+  "worst_bus": 302,
+  "worst_bus_hc_mw": 17.1,
+  "best_to_worst_ratio": 115.0,
+  "best_to_median_ratio": 7.13,
+  "buses_zero_hc": 0,
+  "share_limited_by_dc_thermal_pct": 11.0,
+  "share_ac_thermal_pct": 13.7,
+  "share_ac_voltage_pct": 75.3,
+  "buses_where_ac_below_dc": 65,
+  "median_ac_reduction_where_lower_pct": 85.9,
+  "median_hc_by_kv": {
+    "138": 37.9,
+    "230": 573.6
+  },
+  "median_hc_by_area": {
+    "1": 226.35000000000002,
+    "2": 272.8,
+    "3": 279.3
+  }
+}

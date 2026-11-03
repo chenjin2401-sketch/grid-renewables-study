@@ -5,3 +5,9 @@ __pycache__/
 
 # Inputs and reference results derived from coursework stay local (see data/README.md)
 data/private/
+# Personal study notes (Chinese), not part of the public repo
+notes/
+# Large intermediate arrays shared between phases (regenerate with the phase scripts)
+cache/
+# Downloaded by scripts/download_rts_gmlc.py
+data/rts_gmlc/

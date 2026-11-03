@@ -1,0 +1,7 @@
+check,max_abs_diff,note
+AC PF |V| (pu),0.0004757001314403819,reference printed to 3 decimals
+AC PF angle (deg),0.0004817303733002376,reference printed to 3 decimals
+AC PF branch P from (MW),0.004970583754499103,reference printed to 2 decimals
+AC PF total losses (MW),0.0047084657066136515,reference 153.97
+DC-OPF objective ($/h),0.0014386892144102603,reference 225806.07
+DC-OPF LMP ($/MWh),0.0007141086100475036,reference 34.01 at every bus

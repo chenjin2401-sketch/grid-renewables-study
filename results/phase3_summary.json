@@ -1,0 +1,266 @@
+{
+  "baseline": {
+    "summary": {
+      "hours_screened": 42,
+      "hours_excluded_base_not_converged": [
+        "2020-08-13 14:00:00",
+        "2020-08-13 15:00:00",
+        "2020-08-26 13:00:00",
+        "2020-08-26 14:00:00"
+      ],
+      "contingencies_per_hour": 118,
+      "islanding_outages_skipped": 2,
+      "full_ac_runs": 4956,
+      "full_ac_runtime_s": 138.2,
+      "non_converged": 202,
+      "overloads": 921,
+      "contingency_hours_with_overload": 865,
+      "distinct_critical_outages": 111,
+      "distinct_overloaded_branches": 21,
+      "worst_loading_pct_of_lte": 170.7,
+      "overloads_on_C10_reactive": 716
+    },
+    "screening": [
+      {
+        "method": "DC (LODF)",
+        "threshold": 1.0,
+        "flagged_cases": 306,
+        "ac_runs": 306,
+        "runtime_s": 9.89,
+        "overloads_found": 227,
+        "overloads_missed": 694,
+        "recall_pct": 24.6,
+        "nonconverged_cases_flagged": 69,
+        "speedup_vs_full_ac": 14.0
+      },
+      {
+        "method": "DC (LODF)",
+        "threshold": 0.95,
+        "flagged_cases": 371,
+        "ac_runs": 371,
+        "runtime_s": 11.8,
+        "overloads_found": 250,
+        "overloads_missed": 671,
+        "recall_pct": 27.1,
+        "nonconverged_cases_flagged": 77,
+        "speedup_vs_full_ac": 11.7
+      },
+      {
+        "method": "DC (LODF)",
+        "threshold": 0.9,
+        "flagged_cases": 487,
+        "ac_runs": 487,
+        "runtime_s": 15.26,
+        "overloads_found": 270,
+        "overloads_missed": 651,
+        "recall_pct": 29.3,
+        "nonconverged_cases_flagged": 94,
+        "speedup_vs_full_ac": 9.1
+      },
+      {
+        "method": "DC (LODF)",
+        "threshold": 0.85,
+        "flagged_cases": 758,
+        "ac_runs": 758,
+        "runtime_s": 22.34,
+        "overloads_found": 312,
+        "overloads_missed": 609,
+        "recall_pct": 33.9,
+        "nonconverged_cases_flagged": 118,
+        "speedup_vs_full_ac": 6.2
+      },
+      {
+        "method": "hybrid (LODF + base-case Q)",
+        "threshold": 1.0,
+        "flagged_cases": 904,
+        "ac_runs": 904,
+        "runtime_s": 27.57,
+        "overloads_found": 799,
+        "overloads_missed": 122,
+        "recall_pct": 86.8,
+        "nonconverged_cases_flagged": 142,
+        "speedup_vs_full_ac": 5.0
+      },
+      {
+        "method": "hybrid (LODF + base-case Q)",
+        "threshold": 0.95,
+        "flagged_cases": 1219,
+        "ac_runs": 1219,
+        "runtime_s": 36.82,
+        "overloads_found": 912,
+        "overloads_missed": 9,
+        "recall_pct": 99.0,
+        "nonconverged_cases_flagged": 172,
+        "speedup_vs_full_ac": 3.8
+      },
+      {
+        "method": "hybrid (LODF + base-case Q)",
+        "threshold": 0.9,
+        "flagged_cases": 2156,
+        "ac_runs": 2156,
+        "runtime_s": 61.0,
+        "overloads_found": 920,
+        "overloads_missed": 1,
+        "recall_pct": 99.9,
+        "nonconverged_cases_flagged": 184,
+        "speedup_vs_full_ac": 2.3
+      },
+      {
+        "method": "hybrid (LODF + base-case Q)",
+        "threshold": 0.85,
+        "flagged_cases": 3985,
+        "ac_runs": 3985,
+        "runtime_s": 107.67,
+        "overloads_found": 921,
+        "overloads_missed": 0,
+        "recall_pct": 100.0,
+        "nonconverged_cases_flagged": 198,
+        "speedup_vs_full_ac": 1.3
+      }
+    ]
+  },
+  "with_project": {
+    "summary": {
+      "hours_screened": 42,
+      "hours_excluded_base_not_converged": [
+        "2020-08-13 14:00:00",
+        "2020-08-13 15:00:00",
+        "2020-08-26 13:00:00",
+        "2020-08-26 14:00:00"
+      ],
+      "contingencies_per_hour": 118,
+      "islanding_outages_skipped": 2,
+      "full_ac_runs": 4956,
+      "full_ac_runtime_s": 143.7,
+      "non_converged": 250,
+      "overloads": 993,
+      "contingency_hours_with_overload": 907,
+      "distinct_critical_outages": 110,
+      "distinct_overloaded_branches": 23,
+      "worst_loading_pct_of_lte": 156.4,
+      "overloads_on_C10_reactive": 707
+    },
+    "screening": [
+      {
+        "method": "DC (LODF)",
+        "threshold": 1.0,
+        "flagged_cases": 396,
+        "ac_runs": 396,
+        "runtime_s": 12.67,
+        "overloads_found": 315,
+        "overloads_missed": 678,
+        "recall_pct": 31.7,
+        "nonconverged_cases_flagged": 86,
+        "speedup_vs_full_ac": 11.3
+      },
+      {
+        "method": "DC (LODF)",
+        "threshold": 0.95,
+        "flagged_cases": 497,
+        "ac_runs": 497,
+        "runtime_s": 15.37,
+        "overloads_found": 338,
+        "overloads_missed": 655,
+        "recall_pct": 34.0,
+        "nonconverged_cases_flagged": 95,
+        "speedup_vs_full_ac": 9.4
+      },
+      {
+        "method": "DC (LODF)",
+        "threshold": 0.9,
+        "flagged_cases": 683,
+        "ac_runs": 683,
+        "runtime_s": 20.64,
+        "overloads_found": 363,
+        "overloads_missed": 630,
+        "recall_pct": 36.6,
+        "nonconverged_cases_flagged": 114,
+        "speedup_vs_full_ac": 7.0
+      },
+      {
+        "method": "DC (LODF)",
+        "threshold": 0.85,
+        "flagged_cases": 1161,
+        "ac_runs": 1161,
+        "runtime_s": 33.38,
+        "overloads_found": 408,
+        "overloads_missed": 585,
+        "recall_pct": 41.1,
+        "nonconverged_cases_flagged": 145,
+        "speedup_vs_full_ac": 4.3
+      },
+      {
+        "method": "hybrid (LODF + base-case Q)",
+        "threshold": 1.0,
+        "flagged_cases": 1003,
+        "ac_runs": 1003,
+        "runtime_s": 31.09,
+        "overloads_found": 878,
+        "overloads_missed": 115,
+        "recall_pct": 88.4,
+        "nonconverged_cases_flagged": 173,
+        "speedup_vs_full_ac": 4.6
+      },
+      {
+        "method": "hybrid (LODF + base-case Q)",
+        "threshold": 0.95,
+        "flagged_cases": 1460,
+        "ac_runs": 1460,
+        "runtime_s": 44.87,
+        "overloads_found": 988,
+        "overloads_missed": 5,
+        "recall_pct": 99.5,
+        "nonconverged_cases_flagged": 222,
+        "speedup_vs_full_ac": 3.2
+      },
+      {
+        "method": "hybrid (LODF + base-case Q)",
+        "threshold": 0.9,
+        "flagged_cases": 2427,
+        "ac_runs": 2427,
+        "runtime_s": 80.02,
+        "overloads_found": 992,
+        "overloads_missed": 1,
+        "recall_pct": 99.9,
+        "nonconverged_cases_flagged": 235,
+        "speedup_vs_full_ac": 1.8
+      },
+      {
+        "method": "hybrid (LODF + base-case Q)",
+        "threshold": 0.85,
+        "flagged_cases": 4414,
+        "ac_runs": 4414,
+        "runtime_s": 130.49,
+        "overloads_found": 993,
+        "overloads_missed": 0,
+        "recall_pct": 100.0,
+        "nonconverged_cases_flagged": 245,
+        "speedup_vs_full_ac": 1.1
+      }
+    ]
+  },
+  "project": {
+    "bus": 320,
+    "area": 3,
+    "area_pv_capacity_factor": 0.2798,
+    "firm_mw": 436.2,
+    "dc_firm_mw": 1105.6,
+    "mw": 870.0,
+    "limit": "thermal C28"
+  },
+  "delta": {
+    "overloads_baseline": 921,
+    "overloads_with_project": 993,
+    "new_overload_cases": 157,
+    "relieved_cases": 85,
+    "top_new_outage_monitored": {
+      "C35 -> C28": 23,
+      "CA-1 -> C28": 22,
+      "C18 -> C28": 15,
+      "C35 -> CB-1": 11,
+      "CA-1 -> CB-1": 10,
+      "C19 -> C28": 10
+    },
+    "worst_loading_change_pct_points": -14.3
+  }
+}

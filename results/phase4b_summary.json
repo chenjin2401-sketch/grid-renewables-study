@@ -1,0 +1,12 @@
+{
+  "buses": 35,
+  "buses_improved_gt_10pct": 32,
+  "median_gain_pct": 387.7,
+  "median_unity_mw": 65.3,
+  "median_volt_var_mw": 468.2,
+  "total_gain_mw": 12191.8,
+  "new_limits": {
+    "thermal": 22,
+    "voltage": 13
+  }
+}

@@ -24,7 +24,8 @@ buses PQ, branches rated 400 MVA, linear generator costs) was rebuilt in Python:
 | Voltage magnitude | 1.7e-10 / 1.8e-10 pu | 0.941 – 1.009 pu |
 | Voltage angle | 8.4e-9 / 6.2e-9 deg | −5.9 – 1.5 deg |
 | Branch P (both ends) | 5.4e-7 / 5.4e-7 MW | −340 – 345 MW |
-| Generator P / Q | 4.5e-7 MW / 1.1e-6 MVAr | up to 875 MW / 475 MVAr |
+| Generator P (A / B) | 4.5e-7 / 3.3e-7 MW | up to 875 MW |
+| Generator Q (A / B) | 1.1e-6 / 1.1e-6 MVAr | up to 475 MVAr |
 | Losses | 1.5e-8 / 1.1e-8 MW | 0.48 – 7.55 MW |
 | Hourly cost | < $3e-6 | $6.4k – $34.5k |
 
