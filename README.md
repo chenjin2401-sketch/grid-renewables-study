@@ -62,4 +62,3 @@ pandapower (AC power flow) · SciPy/HiGHS and Pyomo (linear programs) · NumPy /
 - The 5-bus validation case is MATPOWER `case5` (F. Li and R. Bo, 2010) with documented modifications.
 - Results were checked by independent numeric and code reviews; issues they found (an MW-vs-MVA
   artifact in the AC checks, a headroom lower bound used beyond its range) were fixed and all phases rerun.
-- Implementation was AI-assisted. The study design, modeling choices and analysis are the author's.
